@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Trio Home"/>
+        <item
+            android:id="@+id/nav_animalfeed"
+            android:icon="@drawable/ic_one"
+            android:title="Animal Feed" />
+        <item
+            android:id="@+id/nav_fertilizers"
+            android:icon="@drawable/ic_two"
+            android:title="Fertilizers" />
+        <item
+            android:id="@+id/nav_seeds"
+            android:icon="@drawable/ic_three"
+            android:title="Seeds" />
+        <item
+            android:id="@+id/nav_pesticides"
+            android:icon="@drawable/ic_four"
+            android:title="Pesticides" />
+    </group>
+
+    <item android:title="Customer">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/user"
+                android:title="Your account" />
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@drawable/contact_us"
+                android:title="Contact us" />
+        </menu>
+    </item>
+
+</menu>

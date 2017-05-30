@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/flContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.btp.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="#e1e1e1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/categories_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:background="@drawable/mylayout"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:id="@+id/categories_image_view"
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/categories"
+                    android:layout_margin="6dp"/>
+
+                <TextView
+                    android:id="@+id/categories_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/categories"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_toEndOf="@+id/categories_image_view"
+                    android:layout_toRightOf="@+id/categories_image_view"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/categories_eg_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="CattleFeed, Fertilizers, Seeds etc."
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    android:layout_toEndOf="@+id/categories_image_view"
+                    android:layout_toRightOf="@+id/categories_image_view"
+                    android:layout_below="@+id/categories_text_view"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"/>
+
+                <Button
+                    android:id="@+id/Button01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text=">"
+                    android:onClick="onClick"
+                    android:background="@android:color/transparent"
+                    android:layout_toRightOf="@+id/categories_eg_text_view"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/categories_eg_text_view"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/brands_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/mylayout">
+
+                <ImageView
+                    android:id="@+id/brands_image_view"
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/brands"
+                    android:layout_margin="6dp"/>
+
+                <TextView
+                    android:id="@+id/brands_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Shop by Brands"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_toEndOf="@+id/brands_image_view"
+                    android:layout_toRightOf="@+id/brands_image_view"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/brands_eg_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="CattleFeed, Fertilizers, Seeds etc."
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    android:layout_toEndOf="@+id/brands_image_view"
+                    android:layout_toRightOf="@+id/brands_image_view"
+                    android:layout_below="@+id/brands_text_view"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="8dp"/>
+
+                <Button
+                    android:id="@+id/Button02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text=">"
+                    android:onClick="onClick"
+                    android:background="@android:color/transparent"
+                    android:layout_toRightOf="@+id/brands_eg_text_view"
+                    android:layout_toEndOf="@+id/brands_eg_text_view"
+                    android:layout_centerVertical="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:id="@+id/seeds_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Seeds"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"/>
+
+                <Button
+                    android:id="@+id/Button03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="View all"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:onClick="onClick"
+                    android:background="@drawable/mybutton"
+                    android:scaleY="0.6"
+                    android:scaleX="0.8"
+                    android:layout_marginBottom="4dp"/>
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.2dp"
+                    android:background="#4f5a5f"
+                    android:layout_below="@+id/Button03"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/view1">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:id="@+id/seeds_product1"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/product1_image"
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_margin="8dp"
+                                android:padding="16dp"
+                                android:src="@drawable/cherry_tomato_seeds"/>
+
+                            <TextView
+                                android:id="@+id/product1_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cherry Tomato"
+                                android:padding="4dp"
+                                android:layout_gravity="center_horizontal"
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+                        <View
+                            android:id="@+id/view_seeds1"
+                            android:layout_width="1dp"
+                            android:layout_height="190dp"
+                            android:background="#e1e1e1"
+                            android:layout_toRightOf="@id/seeds_product1"
+                            android:layout_toEndOf="@id/seeds_product1"/>
+                        <LinearLayout
+                            android:id="@+id/seeds_product2"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_toRightOf="@+id/view_seeds1"
+                            android:layout_toEndOf="@id/view_seeds1">
+                            <ImageView
+                                android:id="@+id/product2_image"
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_margin="8dp"
+                                android:src="@drawable/alpine_strawberries_seeds"
+                                android:padding="16dp"/>
+                            <TextView
+                                android:id="@+id/product2_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Alpine Strawberry"
+                                android:padding="4dp"
+                                android:layout_gravity="center_horizontal"
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+                        <View
+                            android:id="@+id/view_seeds2"
+                            android:layout_width="1dp"
+                            android:layout_height="190dp"
+                            android:background="#e1e1e1"
+                            android:layout_toRightOf="@id/seeds_product2"
+                            android:layout_toEndOf="@id/seeds_product2"/>
+                        <LinearLayout
+                            android:id="@+id/seeds_product3"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_toRightOf="@+id/view_seeds2"
+                            android:layout_toEndOf="@id/view_seeds2">
+                            <ImageView
+                                android:id="@+id/product3_image"
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_margin="8dp"
+                                android:src="@drawable/brinjal_black_seeds"
+                                android:padding="16dp"/>
+
+                            <TextView
+                                android:id="@+id/product3_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Brinjal Black"
+                                android:padding="4dp"
+                                android:maxLines="2"
+                                android:layout_gravity="center_horizontal"
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+                        <View
+                            android:id="@+id/view_seeds3"
+                            android:layout_width="1dp"
+                            android:layout_height="190dp"
+                            android:background="#e1e1e1"
+                            android:layout_toRightOf="@id/seeds_product3"
+                            android:layout_toEndOf="@id/seeds_product3"/>
+                        <LinearLayout
+                            android:id="@+id/seeds_product4"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_toRightOf="@+id/view_seeds3"
+                            android:layout_toEndOf="@id/view_seeds3">
+                            <ImageView
+                                android:id="@+id/product4_image"
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_margin="8dp"
+                                android:src="@drawable/brinjal_purple_slender"
+                                android:padding="16dp"/>
+
+                            <TextView
+                                android:id="@+id/product4_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Brinjal Purple"
+                                android:layout_gravity="center_horizontal"
+                                android:padding="4dp"
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                </HorizontalScrollView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:id="@+id/fertilizers_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fertilizers"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"/>
+
+                <Button
+                    android:id="@+id/Button04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="View all"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:onClick="onClick"
+                    android:background="@drawable/mybutton"
+                    android:scaleY="0.6"
+                    android:scaleX="0.8"
+                    android:layout_marginBottom="4dp"/>
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.2dp"
+                    android:background="#4f5a5f"
+                    android:layout_below="@+id/Button04"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/view2">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:id="@+id/fertil_product1"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/fertil_product1_image"
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_margin="8dp"
+                                android:padding="16dp"
+                                android:src="@drawable/california_poppy_mix_seeds"/>
+
+                            <TextView
+                                android:id="@+id/fertil_product1_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="California Poppy Mix"
+                                android:padding="4dp"
+                                android:layout_gravity="center_horizontal"
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+                        <View
+                            android:id="@+id/view_fertil1"
+                            android:layout_width="1dp"
+                            android:layout_height="190dp"
+                            android:background="#e1e1e1"
+                            android:layout_toRightOf="@id/fertil_product1"
+                            android:layout_toEndOf="@id/fertil_product1"/>
+                        <LinearLayout
+                            android:id="@+id/fertil_product2"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_toRightOf="@+id/view_fertil1"
+                            android:layout_toEndOf="@id/view_fertil1">
+                            <ImageView
+                                android:id="@+id/fertil_product2_image"
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_margin="8dp"
+                                android:padding="16dp"
+                                android:src="@drawable/cauliflower_seeds"/>
+
+                            <TextView
+                                android:id="@+id/fertil_product2_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cauliflower"
+                                android:padding="4dp"
+                                android:layout_gravity="center_horizontal"
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+                        <View
+                            android:id="@+id/view_fertil2"
+                            android:layout_width="1dp"
+                            android:layout_height="190dp"
+                            android:background="#e1e1e1"
+                            android:layout_toRightOf="@id/fertil_product2"
+                            android:layout_toEndOf="@id/fertil_product2"/>
+                        <LinearLayout
+                            android:id="@+id/fertil_product3"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_toRightOf="@+id/view_fertil2"
+                            android:layout_toEndOf="@id/view_fertil2">
+                            <ImageView
+                                android:id="@+id/fertil_product3_image"
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_margin="8dp"
+                                android:padding="16dp"
+                                android:src="@drawable/cherry_tomato_seeds"/>
+
+                            <TextView
+                                android:id="@+id/fertil_product3_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Cherry Tomato"
+                                android:padding="4dp"
+                                android:layout_gravity="center_horizontal"
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+                        <View
+                            android:id="@+id/view_fertil3"
+                            android:layout_width="1dp"
+                            android:layout_height="190dp"
+                            android:background="#e1e1e1"
+                            android:layout_toRightOf="@id/fertil_product3"
+                            android:layout_toEndOf="@id/fertil_product3"/>
+                        <LinearLayout
+                            android:id="@+id/fertil_product4"
+                            android:clickable="true"
+                            android:onClick="onClick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_toRightOf="@+id/view_fertil3"
+                            android:layout_toEndOf="@id/view_fertil3">
+                            <ImageView
+                                android:id="@+id/fertil_product4_image"
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_margin="8dp"
+                                android:padding="16dp"
+                                android:src="@drawable/chrysanthemum_white_seeds"/>
+
+                            <TextView
+                                android:id="@+id/fertil_product4_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Chrysanthemum White"
+                                android:padding="4dp"
+                                android:layout_gravity="center_horizontal"
+                                android:textSize="14sp"/>
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                </HorizontalScrollView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:id="@+id/new3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enjoy Shopping on the App?"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.2dp"
+                    android:background="#4f5a5f"
+                    android:layout_below="@+id/new3"/>
+
+                <LinearLayout
+                    android:id="@+id/hate"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="16dp"
+                    android:layout_below="@+id/new3">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/cart_empty"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Not Really"
+                            android:textSize="24sp"
+                            android:textStyle="italic"
+                            android:padding="8dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/love"
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/cart_full"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Loving it!!"
+                            android:textSize="24sp"
+                            android:textStyle="italic"
+                            android:padding="8dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "62686890340",
+    "firebase_url": "https://btpnew-1e2cb.firebaseio.com",
+    "project_id": "btpnew-1e2cb",
+    "storage_bucket": "btpnew-1e2cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62686890340:android:e6b94d4b5222b5c2",
+        "android_client_info": {
+          "package_name": "com.example.android.btp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62686890340-bktf2nj8q128is2gtv8m1nt63qo3tiqh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.btp",
+            "certificate_hash": "EB5A4A2367A07B741268D75BF77C176872C1DE1C"
+          }
+        },
+        {
+          "client_id": "62686890340-8oek4n2qeps58e8f6j1e7b4iurpfrgtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF_0lIu_gnoT0cS_NMDOgrTOwUVncXV4c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

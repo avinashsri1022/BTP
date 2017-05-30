@@ -1,0 +1,267 @@
+<resources>
+    <string name="app_name">BTP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="seeds">Seeds</string>
+    <string name="categories">Shop by categories</string>
+    <string name="anything">
+        <li>Unique BIO-CARBON Liquid fertilizers suitable for all crops</li>\n
+        <li>Contains 16 essential Micro and Macro nutrients</li>\n
+        <li>Rapid effect</li>\n
+        <li>Easier coverage</li>\n
+        <li>Liquid form</li>\n
+        <li>Used for home and fields</li>\n
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    /*CATEGORIES*/
+    <string-array name="categories">
+        <item>Animal Feed</item>
+        <item>Cattle Feed</item>
+        <item>Poultry Feed</item>
+        <item>Aqua Feed</item>
+        <item>Sheep and Goat Feed</item>
+        <item>Speciality Feed</item>
+        <item>Fertilizers</item>
+        <item>Seeds</item>
+        <item>Vegetable Seeds</item>
+        <item>Flower Seeds</item>
+        <item>Hybrid Seeds</item>
+        <item>Herb Seeds</item>
+        <item>Tree Seeds</item>
+        <item>Pesticides</item>
+    </string-array>
+    /*SEEDS*/
+    <string-array name="Seeds">
+        <item>Vegetable Seeds</item>
+        <item>Flower Seeds</item>
+        <item>Hybrid Seeds</item>
+        <item>Herb Seeds</item>
+        <item>Tree Seeds</item>
+    </string-array>
+
+    <string-array name="image_ids">
+        <item>@drawable/image_1</item>
+        <item>@drawable/image_2</item>
+        <item>@drawable/image_3</item>
+        <item>@drawable/image_4</item>
+        <item>@drawable/image_5</item>
+        <item>@drawable/image_6</item>
+        <item>@drawable/image_7</item>
+        <item>@drawable/image_8</item>
+        <item>@drawable/image_9</item>
+        <item>@drawable/image_1</item>
+        <item>@drawable/image_2</item>
+        <item>@drawable/image_3</item>
+        <item>@drawable/image_4</item>
+        <item>@drawable/image_5</item>
+        <item>@drawable/image_6</item>
+        <item>@drawable/image_7</item>
+        <item>@drawable/image_8</item>
+        <item>@drawable/image_9</item>
+    </string-array>
+    <string-array name="image_seeds_ids">
+        <item>@drawable/alpine_strawberries_seeds</item>
+        <item>@drawable/bitter_gourd_seeds</item>
+        <item>@drawable/brinjal_black_seeds</item>
+        <item>@drawable/brinjal_purple_slender</item>
+        <item>@drawable/california_poppy_mix_seeds</item>
+        <item>@drawable/cauliflower_seeds</item>
+        <item>@drawable/cherry_tomato_seeds</item>
+        <item>@drawable/chrysanthemum_white_seeds</item>
+        <item>@drawable/cineraria_silver_dust_seeds</item>
+        <item>@drawable/custard_apple_seeds</item>
+        <item>@drawable/fennel_florence_seeds</item>
+        <item>@drawable/garlic_chives_seeds</item>
+        <item>@drawable/gazania_splendens</item>
+        <item>@drawable/guava_seeds</item>
+        <item>@drawable/helichrysum_song_mix_seeds</item>
+        <item>@drawable/indian_gooseberry_seeds</item>
+        <item>@drawable/lavender_seeds</item>
+        <item>@drawable/lemon_basil_seeds</item>
+        <item>@drawable/okra_seeds</item>
+        <item>@drawable/onion_seeds</item>
+        <item>@drawable/ornamental_pepper_seeds</item>
+        <item>@drawable/pan_american_african_marigold_vanilla</item>
+        <item>@drawable/pan_american_marigold_taishan_orange_seeds</item>
+        <item>@drawable/parsley_seeds</item>
+        <item>@drawable/portulaca_grandiflora_happy_hour_hybrid_seeds</item>
+        <item>@drawable/ridge_gourd_lufa_seeds</item>
+        <item>@drawable/sandalwood_seeds</item>
+        <item>@drawable/sunflower_helianthus_annuus_seeds</item>
+    </string-array>
+    <string-array name="name_seeds_ids">
+        <item>Alpine Strawberries</item>
+        <item>Bitter Gourd</item>
+        <item>Brinjal Black</item>
+        <item>Brinjal Purple</item>
+        <item>California Poppy Mix</item>
+        <item>Cauliflower</item>
+        <item>Cherry Tomato</item>
+        <item>Chrysanthemum White</item>
+        <item>Cineraria Silver Dust</item>
+        <item>Custard Apple</item>
+        <item>Fennel Florence</item>
+        <item>Garlic Chives</item>
+        <item>Gazania Splendens</item>
+        <item>Guava</item>
+        <item>Helichrysum Song Mix</item>
+        <item>Indian Gooseberry</item>
+        <item>Lavender</item>
+        <item>Lemon Basil</item>
+        <item>Okra</item>
+        <item>Onion</item>
+        <item>Ornamental Pepper</item>
+        <item>Pan American African Marigold Vanilla</item>
+        <item>Pan American Marigold Taishan Orange</item>
+        <item>Parsley</item>
+        <item>Portulaca Grandiflora Happy Hour Hybrid</item>
+        <item>Ridge Gourd Lufa</item>
+        <item>Sandalwood</item>
+        <item>Sunflower Helianthus Annus</item>
+    </string-array>
+    /*ANIMAL FEED*/
+    <string-array name="Animal_Feed">
+        <item>Cattle Feed</item>
+        <item>Poultry Feed</item>
+        <item>Aqua Feed</item>
+        <item>Sheep and Goat Feed</item>
+        <item>Speciality Feed</item>
+    </string-array>
+    /*CATTLE FEED*/
+    <string-array name="image_cattlefeed_ids">
+        <item>@drawable/bovino_30</item>
+        <item>@drawable/bovino_calf_grower</item>
+        <item>@drawable/bovino_calf_starter</item>
+        <item>@drawable/bovino_heifer_feed</item>
+        <item>@drawable/bovino_lactation</item>
+        <item>@drawable/cream_label</item>
+        <item>@drawable/dudhratna</item>
+        <item>@drawable/godrej_bypro</item>
+        <item>@drawable/godrej_super</item>
+        <item>@drawable/godrej_supreme</item>
+        <item>@drawable/hpmr</item>
+        <item>@drawable/milk_more</item>
+        <item>@drawable/moo_magicmix</item>
+        <item>@drawable/prepwell</item>
+        <item>@drawable/red_label</item>
+        <item>@drawable/transeefeed_d_60</item>
+        <item>@drawable/cattlefeed</item>
+    </string-array>
+    <string-array name="name_cattlefeed_ids">
+        <item>Bovino 30</item>
+        <item>Bovino Calf Grower</item>
+        <item>Bovino Calf Starter</item>
+        <item>Bovino Heifer Feed</item>
+        <item>Bovino Lactation</item>
+        <item>Cream Label</item>
+        <item>Dudhratna</item>
+        <item>Godrej Bypro</item>
+        <item>Godrej Super</item>
+        <item>Godrej Supreme</item>
+        <item>HPMR</item>
+        <item>Milk More</item>
+        <item>Moo Magic Mix</item>
+        <item>Prepwell</item>
+        <item>Red Label</item>
+        <item>Transeefeed D 60</item>
+        <item>Cattle Feed SKM</item>
+    </string-array>
+    /*AQUA FEED*/
+    <string-array name="image_aquafeed_ids">
+        <item>@drawable/grow_plus</item>
+        <item>@drawable/indica</item>
+        <item>@drawable/nutrifry</item>
+        <item>@drawable/shakti</item>
+        <item>@drawable/spark</item>
+        <item>@drawable/white_diamond</item>
+    </string-array>
+    <string-array name="name_aquafeed_ids">
+        <item>Grow Plus</item>
+        <item>Indica</item>
+        <item>Nutrifry</item>
+        <item>Shakti</item>
+        <item>Spark</item>
+        <item>White Diamond</item>
+    </string-array>
+    /*SPECIALITY FEED*/
+    <string-array name="image_splfeed_ids">
+        <item>@drawable/duck_feed_1</item>
+        <item>@drawable/duck_feed_2</item>
+        <item>@drawable/duck_feed_3</item>
+        <item>@drawable/emu_feed_1</item>
+        <item>@drawable/emu_feed_2</item>
+        <item>@drawable/emu_feed_3</item>
+        <item>@drawable/pony_feed</item>
+        <item>@drawable/quail_feed</item>
+        <item>@drawable/rabbit_feed</item>
+        <item>@drawable/rat_and_mice_feed</item>
+        <item>@drawable/turkey_feed</item>
+        <item>@drawable/varaahar</item>
+    </string-array>
+    <string-array name="name_splfeed_ids">
+        <item>Duck Feed 1</item>
+        <item>Duck Feed 2</item>
+        <item>Duck Feed 3</item>
+        <item>Emu Feed 1</item>
+        <item>Emu Feed 2</item>
+        <item>Emu Feed 3</item>
+        <item>Pony Feed</item>
+        <item>Quail Feed</item>
+        <item>Rabbit Feed</item>
+        <item>Rat and Mice Feed</item>
+        <item>Turkey Feed</item>
+        <item>Pig Feed</item>
+    </string-array>
+    /*SHEEP AND GOAT FEED*/
+    <string-array name="image_sheepfeed_ids">
+        <item>@drawable/sheep_feed</item>
+        <item>@drawable/goat_feed</item>
+        <item>@drawable/sheep_goat_feed_new</item>
+    </string-array>
+    <string-array name="name_sheepfeed_ids">
+        <item>Sheep Feed</item>
+        <item>Goat feed</item>
+        <item>Sheep Goat Feed SKM</item>
+    </string-array>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to send you the password reset instructions.</string>
+
+    <string-array name="pincode_array">
+        <item>231302</item>
+        <item>231307</item>
+    </string-array>
+</resources>
